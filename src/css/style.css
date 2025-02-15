@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  height: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/fundo.jpg);
+  box-sizing: border-box;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff; /* Cor do WhatsApp */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+  font-size: 30px; /* Tamanho do ícone */
+  color: #fff; /* Cor do ícone */
+}
+
+.whatsapp-button img {
+  width: 41px;
+  
+}
+
+
+.whatsapp-button:hover {
+  width: 61px;
+  height: 61px;
+  background-color: #881beee0;
+}
+
+
+
+nav {
+ 
+  background-color: #520a8393;
+  padding: 40px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 50px;
+
+}
+nav a {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Indie Flower";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 20px;
+  transition: background-color 0.2s ease, transform 0.3s ease;
+}
+nav a:hover {
+  transform: scale(1.2);
+  border-radius: 5px;
+  background-color: #ffffff3d;
+}
+
+
+/*Estilização slider*/
+
+
+.container-slider {
+  margin-top: 40px;
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 0px;
+
+  background-size: contain;
+  background-repeat: repeat;
+height: 530px;
+ 
+}
+
+.titulo-inicio{
+  margin-top: -40px;
+ margin-bottom: 20px;
+  color: rgba(105, 11, 160, 0.678);
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.slider {
+  text-align: center;
+margin-top: 29px;
+  width: 310px;
+padding-top: 20px;
+height: 220px;
+color: #000000;
+
+font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+/*Estilização slider Menu Serviços*/
+
+
+.container-servicos-box{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #b299ca;
+}
+
+
+
+.container-titulo-servico {
+  margin-top: 0px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  color:rgba(0, 0, 0, 0.726);
+  background-color: #b299ca;
+  font-size: 35px;
+  font-family: "Indie Flower", cursive;
+  padding-top: 40px;
+}
+
+
+/*Estilização slider Serviços*/
+
+.container-servicos{
+  background-color: #b299ca;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 100px;
+  height: 490px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+  
+}
+.container-slider-servico1, .container-slider-servico2, .container-slider-servico3{
+
+height: 320px;
+
+}
+.slider-servico-icone, .slider-servico-icone2, .slider-servico-icone3{
+text-align: center;
+
+}
+
+
+.subtitulo-serv1, .subtitulo-serv2, .subtitulo-serv3{
+  text-align: center;
+}
+
+.texto-serv1, .texto-serv2, .texto-serv3{
+  margin-top: 10px;
+  background-color: #edf0f100;
+  width: 160px;
+  text-align:center;
+  font-size: 17px;
+  line-height: 1.5;
+  
+}
+/*Estilização slider Menu Vestidos*/
+.container-vestidos{
+display: flex;
+justify-content: center;
+justify-items: center;
+background-color: #520a8393;
+
+}
+
+.container-titulo-vestidos {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+ 
+  font-size: 35px;
+  font-family: "Indie Flower", cursive;
+  
+}
+
+.container-grid{
+padding: 10px;
+display: flex;
+justify-content: center;
+justify-items: center;
+background-color: #520a8393;
+
+
+}
+/*Estilização SubTitulo */
+.container {
+ display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; /* Centraliza os itens horizontalmente */
+  width: 670px;
+  height: 600px;
+ 
+ 
+  gap: 2px;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.text, .text2{
+  width: 330px!important;
+  height: 410px;
+  margin-top: 0px;
+  text-align: justify;
+  line-height: 1.5;
+  color: #edf0f1;
+ 
+}
+
+
+.text2 p{
+  margin-top: 10px;
+  width: 300px;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+
+
+
+.text p{
+  width: 300px;
+margin-left: 10px;
+font-size: 15px;
+}
+
+
+
+
+.img3, .img4, .img5{
+
+border: 5px solid rgba(255, 255, 255, 0.973);
+}
+
+.img5{
+  height: 400px !important; 
+}
+
+
+.img4{
+  margin-left: 20px;
+  margin-top: -525px;
+  height: 405px!important;
+  width: 300px!important; 
+}
+
+
+/*Estilização slider Menu Horario*/
+
+.container-titulo-horario {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  color:rgba(0, 0, 0, 0.973);
+  background-color: #ffffff;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+}
+
+
+
+.slider-horario a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2px;
+  background-color: #fffdfd65;
+}
+.slider-horario a:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 2px;
+  background-color: #726e6e3a;
+}
+
+
+/*Estilização SubTitulo */
+
+/*Estilização slider*/
+.container-slider-horario{
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+  justify-items: center;
+  
+  background-color: #ffffff;
+}
+
+.slider-horario {
+  margin-top: 10px;
+  width: 590px;
+  height: 428px;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 45px;
+  position: relative;
+  border-radius: 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+
+/*Estilização slider Menu Localização*/
+
+.container-localizacao{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #353434;
+  height: 100px;
+  
+  
+}
+.container-titulo-endereco{
+  margin-bottom: 1px;
+  font-family: "Indie Flower", cursive;
+  padding: 12px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 25px;
+ background-color: #353434;
+ color: rgb(255, 255, 255);
+
+}
+.container-endereco{
+  margin-top: 20px;
+  font-size: none;
+  font-family: none;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container-endereco i{
+ 
+color: #ffffff;
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+
+
+
+/*Estilização slider Menu Mapa*/
+
+
+
+.container-mapa{
+display: flex;
+justify-content: center;
+justify-items: center;
+background-color: #353434;
+
+
+}
+.mapa-box{
+ margin-top: 30px;
+
+height: 400px;
+
+}
+
+#map { display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 400px;
+    height: 340px;
+    border-radius: 2px;
+  
+}
+
+/*Estilização Container Redes*/
+
+.container-redes {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color:#9900ffaf; 
+  gap: 5px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
+
+
+/*Estilização Container Rodapé*/
+.container-rodape {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color:#9900ffaf; 
+  margin-bottom: 0px;
+  font-size: 12px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container-rodape a {
+  color: #ffffff;
+  text-decoration: none;
+
+
+}
+
+
+
+@media (max-width: 415px) {
+  body {
+      background-size: contain; /* Garante que a imagem de fundo cubra a tela */
+  }
+
+  nav {
+    display: flex;
+    justify-items: center;
+      /* Links em coluna */
+      align-items: center;
+      gap: 5px; /* Espaçamento menor entre os links */
+  }
+
+  nav a {
+      font-size: 18px; /* Tamanho de fonte menor */
+      padding: 5px; /* Padding menor */
+      background-color: #0000002d;
+      width: 70px;
+      text-align: center!important;
+      
+  }
+
+  .container-slider {
+    height: 400px;
+      margin-top: -20px;
+    
+  }
+
+  .titulo-inicio {
+    margin-top: -10px;
+    margin-bottom: 40px!important;
+      font-size: 18px;
+    
+  }
+
+  
+   p {
+   
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+
+ .container-servicos{
+  background-color: #b299ca;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  height: 450px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+  
+}
+
+.container-slider-servico1, .container-slider-servico2, .container-slider-servico3{
+
+  height: 320px;
+
+}
+.slider-servico-icone, .slider-servico-icone2, .slider-servico-icone3{
+text-align: center;
+
+}
+
+
+.subtitulo-serv1, .subtitulo-serv2, .subtitulo-serv3{
+  text-align: center;
+}
+
+
+
+.texto-serv1, .texto-serv2, .texto-serv3{
+  margin-top: 10px;
+  background-color: #edf0f100;
+  width: 90px;
+  text-align:center;
+  font-size: 12px;
+  line-height: 1.5;
+  
+}
+.container-titulo-servico{
+  font-size: 25px;
+}
+
+
+/*Estilização slider Menu Vestidos*/
+
+.container-vestidos{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #520a8393;
+  
+  }
+  
+  .container-titulo-vestidos {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    
+  }
+  
+  .container-grid{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #520a8393;
+  
+  }
+
+
+  /*Estilização SubTitulo */
+  .container {
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 670px;
+    height: 600px;
+    gap: 2px;
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+  
+  .text, .text2{
+    width: 190px!important;
+    height: 100px;
+    margin-top: -200px;
+    text-align: center;
+    line-height: 1.5;
+    color: #edf0f1;
+   
+  }
+  
+  
+  .text2 p{
+    margin-top: -80px;
+    width: 150px;
+    margin-left: 25px;
+    font-size: 13px;
+  }
+  
+  .text p{
+    margin-top: -5px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+   
+   .img4, .img5{
+  
+  border: 5px solid rgba(255, 255, 255, 0.973);
+  }
+  
+  .img5{
+    height: 210px !important; 
+    width: 150px!important;
+    margin-top: -110px;
+  }
+  
+  
+  .img4{
+    margin-left: 20px;
+    margin-top: -230px;
+    height: 225px!important;
+    width: 170px!important; 
+  }
+  
+
+
+/*Estilização slider Menu Nossos Horarios*/
+
+
+.container-titulo-horario{
+  font-size: 25px;
+}
+
+.slider-horario{
+  margin-top: -12px;
+  font-size: 11px;
+  width: 280px;
+  height: 500px;
+}
+
+.container-titulo-endereco{
+  font-size: 20px;
+}
+.container-mapa{
+
+height: 390px;
+}
+
+.mapa-box{display: flex;
+  justify-content: center;
+  width: 290px;
+  height: 300px!important;
+  
+
+}
+
+.whatsapp-button {
+ 
+  background-color: #d400ff; /* Cor do WhatsApp */
+  box-shadow: 0px 2px 5px rgba(149, 2, 207, 0.3);
+ 
+}
+
+}
